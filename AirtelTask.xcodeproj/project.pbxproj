@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2634E51F249C5EFF00C6CFED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2634E51E249C5EFF00C6CFED /* Assets.xcassets */; };
+		2634E537249C5F9700C6CFED /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2634E52B249C5F9700C6CFED /* Models.swift */; };
+		2634E538249C5F9700C6CFED /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2634E52D249C5F9700C6CFED /* APIManager.swift */; };
+		2634E539249C5F9700C6CFED /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2634E52F249C5F9700C6CFED /* ImageCell.swift */; };
+		2634E53A249C5F9700C6CFED /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2634E532249C5F9700C6CFED /* Constants.swift */; };
+		2634E53C249C5F9700C6CFED /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2634E534249C5F9700C6CFED /* Extensions.swift */; };
+		2634E53F249C6E0900C6CFED /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2634E53E249C6E0900C6CFED /* XMLParser.swift */; };
+		2634E541249C6ED700C6CFED /* AJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2634E540249C6ED700C6CFED /* AJSONParser.swift */; };
+		2634E543249C6F4900C6CFED /* AParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2634E542249C6F4900C6CFED /* AParser.swift */; };
+		2640C6FB249FBA620076AA77 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2640C6FA249FBA620076AA77 /* UserDefaultManager.swift */; };
+		2669BA4C24A26C0000141CCA /* SearchSuggestionQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2669BA4B24A26C0000141CCA /* SearchSuggestionQueue.swift */; };
+		26783C95249F8FA000154B8D /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26783C94249F8FA000154B8D /* SearchManager.swift */; };
+		26C1EC7124A1200700B44224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1EC6B24A1200700B44224 /* AppDelegate.swift */; };
+		26C1EC7224A1200700B44224 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1EC6C24A1200700B44224 /* SceneDelegate.swift */; };
+		26C1EC7324A1200700B44224 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1EC6E24A1200700B44224 /* ViewModel.swift */; };
+		26C1EC7424A1200700B44224 /* SearchSuggestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1EC7024A1200700B44224 /* SearchSuggestionsView.swift */; };
+		26C1EC7724A1201900B44224 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1EC7624A1201900B44224 /* HomeVC.swift */; };
+		26C1EC7B24A1204900B44224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C1EC7924A1204900B44224 /* LaunchScreen.storyboard */; };
+		26C1EC7C24A1204900B44224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C1EC7A24A1204900B44224 /* Main.storyboard */; };
+		26C1EC7E24A120EF00B44224 /* PhotosViewerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1EC7D24A120EF00B44224 /* PhotosViewerVC.swift */; };
+		26C1EC8024A1246900B44224 /* PhotoViewerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1EC7F24A1246900B44224 /* PhotoViewerCell.swift */; };
+		D7C2A413BA6DE706654B20C0 /* Pods_AirtelTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4FAAE65486F3D94AC1BF709 /* Pods_AirtelTask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2634E512249C5EFF00C6CFED /* AirtelTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirtelTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2634E51E249C5EFF00C6CFED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2634E523249C5EFF00C6CFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2634E52B249C5F9700C6CFED /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		2634E52D249C5F9700C6CFED /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		2634E52F249C5F9700C6CFED /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		2634E532249C5F9700C6CFED /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2634E534249C5F9700C6CFED /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2634E53E249C6E0900C6CFED /* XMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
+		2634E540249C6ED700C6CFED /* AJSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJSONParser.swift; sourceTree = "<group>"; };
+		2634E542249C6F4900C6CFED /* AParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AParser.swift; sourceTree = "<group>"; };
+		2640C6FA249FBA620076AA77 /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		2669BA4B24A26C0000141CCA /* SearchSuggestionQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSuggestionQueue.swift; sourceTree = "<group>"; };
+		26783C94249F8FA000154B8D /* SearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
+		26C1EC6B24A1200700B44224 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26C1EC6C24A1200700B44224 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		26C1EC6E24A1200700B44224 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		26C1EC7024A1200700B44224 /* SearchSuggestionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchSuggestionsView.swift; sourceTree = "<group>"; };
+		26C1EC7624A1201900B44224 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		26C1EC7924A1204900B44224 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26C1EC7A24A1204900B44224 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		26C1EC7D24A120EF00B44224 /* PhotosViewerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewerVC.swift; sourceTree = "<group>"; };
+		26C1EC7F24A1246900B44224 /* PhotoViewerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerCell.swift; sourceTree = "<group>"; };
+		480C241B6D930EBDA4804975 /* Pods-AirtelTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirtelTask.debug.xcconfig"; path = "Target Support Files/Pods-AirtelTask/Pods-AirtelTask.debug.xcconfig"; sourceTree = "<group>"; };
+		5DB7149BCFDF8763412932DB /* Pods-AirtelTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirtelTask.release.xcconfig"; path = "Target Support Files/Pods-AirtelTask/Pods-AirtelTask.release.xcconfig"; sourceTree = "<group>"; };
+		B4FAAE65486F3D94AC1BF709 /* Pods_AirtelTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirtelTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2634E50F249C5EFF00C6CFED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C2A413BA6DE706654B20C0 /* Pods_AirtelTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		066591400254B53A2642A534 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				480C241B6D930EBDA4804975 /* Pods-AirtelTask.debug.xcconfig */,
+				5DB7149BCFDF8763412932DB /* Pods-AirtelTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2634E509249C5EFF00C6CFED = {
+			isa = PBXGroup;
+			children = (
+				2634E514249C5EFF00C6CFED /* AirtelTask */,
+				2634E513249C5EFF00C6CFED /* Products */,
+				066591400254B53A2642A534 /* Pods */,
+				E67FA1464A81AD7498EBDFA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2634E513249C5EFF00C6CFED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2634E512249C5EFF00C6CFED /* AirtelTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2634E514249C5EFF00C6CFED /* AirtelTask */ = {
+			isa = PBXGroup;
+			children = (
+				2669BA4A24A26BEF00141CCA /* SearchQueue */,
+				2634E52A249C5F9700C6CFED /* Models */,
+				26C1EC6D24A1200700B44224 /* ViewModels */,
+				26C1EC6F24A1200700B44224 /* Views */,
+				26C1EC7524A1201900B44224 /* Controllers */,
+				26C1EC7824A1204900B44224 /* Storyboards */,
+				26C1EC6A24A1200700B44224 /* AppAndSceneDelegate */,
+				2634E52E249C5F9700C6CFED /* Cells */,
+				2634E52C249C5F9700C6CFED /* Managers */,
+				2634E531249C5F9700C6CFED /* Utilities */,
+				2634E51E249C5EFF00C6CFED /* Assets.xcassets */,
+				2634E523249C5EFF00C6CFED /* Info.plist */,
+			);
+			path = AirtelTask;
+			sourceTree = "<group>";
+		};
+		2634E52A249C5F9700C6CFED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2634E52B249C5F9700C6CFED /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2634E52C249C5F9700C6CFED /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2634E52D249C5F9700C6CFED /* APIManager.swift */,
+				26783C94249F8FA000154B8D /* SearchManager.swift */,
+				2640C6FA249FBA620076AA77 /* UserDefaultManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2634E52E249C5F9700C6CFED /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2634E52F249C5F9700C6CFED /* ImageCell.swift */,
+				26C1EC7F24A1246900B44224 /* PhotoViewerCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2634E531249C5F9700C6CFED /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2634E53E249C6E0900C6CFED /* XMLParser.swift */,
+				2634E532249C5F9700C6CFED /* Constants.swift */,
+				2634E534249C5F9700C6CFED /* Extensions.swift */,
+				2634E540249C6ED700C6CFED /* AJSONParser.swift */,
+				2634E542249C6F4900C6CFED /* AParser.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2669BA4A24A26BEF00141CCA /* SearchQueue */ = {
+			isa = PBXGroup;
+			children = (
+				2669BA4B24A26C0000141CCA /* SearchSuggestionQueue.swift */,
+			);
+			path = SearchQueue;
+			sourceTree = "<group>";
+		};
+		26C1EC6A24A1200700B44224 /* AppAndSceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				26C1EC6B24A1200700B44224 /* AppDelegate.swift */,
+				26C1EC6C24A1200700B44224 /* SceneDelegate.swift */,
+			);
+			path = AppAndSceneDelegate;
+			sourceTree = "<group>";
+		};
+		26C1EC6D24A1200700B44224 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				26C1EC6E24A1200700B44224 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		26C1EC6F24A1200700B44224 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				26C1EC7024A1200700B44224 /* SearchSuggestionsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		26C1EC7524A1201900B44224 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				26C1EC7624A1201900B44224 /* HomeVC.swift */,
+				26C1EC7D24A120EF00B44224 /* PhotosViewerVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		26C1EC7824A1204900B44224 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				26C1EC7924A1204900B44224 /* LaunchScreen.storyboard */,
+				26C1EC7A24A1204900B44224 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E67FA1464A81AD7498EBDFA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4FAAE65486F3D94AC1BF709 /* Pods_AirtelTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2634E511249C5EFF00C6CFED /* AirtelTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2634E526249C5EFF00C6CFED /* Build configuration list for PBXNativeTarget "AirtelTask" */;
+			buildPhases = (
+				A604E669F9289A8B4685F352 /* [CP] Check Pods Manifest.lock */,
+				2634E50E249C5EFF00C6CFED /* Sources */,
+				2634E50F249C5EFF00C6CFED /* Frameworks */,
+				2634E510249C5EFF00C6CFED /* Resources */,
+				A024B5148043674262AD69AA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirtelTask;
+			productName = AirtelTask;
+			productReference = 2634E512249C5EFF00C6CFED /* AirtelTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2634E50A249C5EFF00C6CFED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Shahul;
+				TargetAttributes = {
+					2634E511249C5EFF00C6CFED = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2634E50D249C5EFF00C6CFED /* Build configuration list for PBXProject "AirtelTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2634E509249C5EFF00C6CFED;
+			productRefGroup = 2634E513249C5EFF00C6CFED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2634E511249C5EFF00C6CFED /* AirtelTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2634E510249C5EFF00C6CFED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C1EC7C24A1204900B44224 /* Main.storyboard in Resources */,
+				26C1EC7B24A1204900B44224 /* LaunchScreen.storyboard in Resources */,
+				2634E51F249C5EFF00C6CFED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A024B5148043674262AD69AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirtelTask/Pods-AirtelTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirtelTask/Pods-AirtelTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AirtelTask/Pods-AirtelTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A604E669F9289A8B4685F352 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirtelTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2634E50E249C5EFF00C6CFED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C1EC7724A1201900B44224 /* HomeVC.swift in Sources */,
+				2634E538249C5F9700C6CFED /* APIManager.swift in Sources */,
+				2634E537249C5F9700C6CFED /* Models.swift in Sources */,
+				2634E541249C6ED700C6CFED /* AJSONParser.swift in Sources */,
+				26C1EC8024A1246900B44224 /* PhotoViewerCell.swift in Sources */,
+				26C1EC7124A1200700B44224 /* AppDelegate.swift in Sources */,
+				2634E53F249C6E0900C6CFED /* XMLParser.swift in Sources */,
+				26C1EC7324A1200700B44224 /* ViewModel.swift in Sources */,
+				26C1EC7E24A120EF00B44224 /* PhotosViewerVC.swift in Sources */,
+				2669BA4C24A26C0000141CCA /* SearchSuggestionQueue.swift in Sources */,
+				26C1EC7424A1200700B44224 /* SearchSuggestionsView.swift in Sources */,
+				26C1EC7224A1200700B44224 /* SceneDelegate.swift in Sources */,
+				2634E543249C6F4900C6CFED /* AParser.swift in Sources */,
+				2634E53C249C5F9700C6CFED /* Extensions.swift in Sources */,
+				2640C6FB249FBA620076AA77 /* UserDefaultManager.swift in Sources */,
+				2634E539249C5F9700C6CFED /* ImageCell.swift in Sources */,
+				26783C95249F8FA000154B8D /* SearchManager.swift in Sources */,
+				2634E53A249C5F9700C6CFED /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2634E524249C5EFF00C6CFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2634E525249C5EFF00C6CFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2634E527249C5EFF00C6CFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 480C241B6D930EBDA4804975 /* Pods-AirtelTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirtelTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = techie.AirtelTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2634E528249C5EFF00C6CFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB7149BCFDF8763412932DB /* Pods-AirtelTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirtelTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = techie.AirtelTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2634E50D249C5EFF00C6CFED /* Build configuration list for PBXProject "AirtelTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2634E524249C5EFF00C6CFED /* Debug */,
+				2634E525249C5EFF00C6CFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2634E526249C5EFF00C6CFED /* Build configuration list for PBXNativeTarget "AirtelTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2634E527249C5EFF00C6CFED /* Debug */,
+				2634E528249C5EFF00C6CFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2634E50A249C5EFF00C6CFED /* Project object */;
+}
